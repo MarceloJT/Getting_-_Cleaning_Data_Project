@@ -7,14 +7,14 @@ Intro
 This repo was created to store and document all steps related to the project assignment of the 
 Coursera "Getting and Cleaning Data" course.
 
-The project assignment is in the Project Assignment.md file.
+The project assignment dewscription is in the Project Assignment.md file.
 
 The Codebook can be found at Codebook.md
 
 Raw data
 --------
 
-The raw data was properly unziped from the project page link:
+The raw data was downloaded and unziped from the link described in course project page:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
