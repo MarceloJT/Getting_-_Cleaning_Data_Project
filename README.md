@@ -31,7 +31,7 @@ This tidy dataset will be written to a tab-delimited file called tidy.txt, which
 
 ## Data Managing Processes
 
-### 1. Merge the training and the test sets to create one data set.
+#### 1. Merges the training and the test sets to create one data set.
 
 After setting the source directory for the files, read into tables the data located in
 - features.txt
@@ -45,15 +45,16 @@ After setting the source directory for the files, read into tables the data loca
 
 Assign column names and merge to create one data set.
 
-### 2. Extract only the measurements on the mean and standard deviation for each measurement. 
-Create a logcal vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others.
+#### 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+Create a loigcal vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others.
 Subset this data to keep only the necessary columns.
 
-### 3. Use descriptive activity names to name the activities in the data set
-Merge data subset with the activityType table to cinlude the descriptive activity names
+#### 3. Uses descriptive activity names to name the activities in the data set.
+The subset data is merged with the activityType table to include the descriptive activity names
 
-### 4. Appropriately label the data set with descriptive activity names.
-Use gsub function for pattern replacement to clean up the data labels.
+#### 4. Appropriately labels the data set with descriptive variable names. 
+The gsub function is used for pattern recognition and replacement of the data labels.
 
-### 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
-Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+#### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+A tidy data set is generated with the average of each veriable for each activity and subject.<br/>
+This tidy dataset will be written to a tab-delimited file named as 'tidy.txt', which can also be found in this repository.
