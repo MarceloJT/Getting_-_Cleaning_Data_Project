@@ -36,14 +36,14 @@ For each record in the dataset it is provided:
 ### Used Files
 The files used in the project are:
 
-#### Root Ditectory:
+##### Root Ditectory:
 - features.txt
 - activity_labels.txt<br/>
-#### Train Directory:
+##### Train Ditectory:
 - subject_train.txt
 - x_train.txt
 - y_train.txt<br/>
-#### Test Directory
+##### Test Ditectory:
 - subject_test.txt
 - x_test.txt
 - y_test.txt<br/>
