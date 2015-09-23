@@ -1,4 +1,5 @@
-Coursera Getting and Cleaning Data: Course Project
+#Coursera Getting and Cleaning Data
+#Course Project
 =========================================
 
 Intro
@@ -10,7 +11,7 @@ The project assignment is in Project Assignment.md
 About the raw data
 ------------------
 
-The features (561 of them) are unlabeled and can be found in the x_test.txt. 
+The xxx are unlabeled and can be found in the x_test.txt. 
 The activity labels are in the y_test.txt file.
 The test subjects are in the subject_test.txt file.
 
