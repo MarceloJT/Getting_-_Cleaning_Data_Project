@@ -29,7 +29,7 @@ The same holds for the training set.
 Scripts and Tidy Dataset
 ------------------------
 The R script that merges and cleans the data is "run_analysis.R".  Its premise is that the file was already
-properly unziped in the directory stated in the "source" command.
+properly unzipped in the directory stated in the "source" command.
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
