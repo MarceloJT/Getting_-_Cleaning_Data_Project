@@ -2,7 +2,7 @@
 ## Getting and Cleaning Data
 
 #####################################################################################################
-# This script will perform the steps to get and clean the data from:
+## This script will perform the steps to get and clean the data from:
  
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -15,7 +15,7 @@
 
 #####################################################################################################
 
-## Preparation
+## Environment Preparation
 
 # free up memory for the download of the data sets
 rm(list=ls())
