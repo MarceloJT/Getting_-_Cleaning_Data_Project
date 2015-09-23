@@ -1,12 +1,13 @@
 #Coursera Getting and Cleaning Data
-#Course Project
+##Course Project
 =========================================
 
 Intro
 -----
 This repo was created to store all data related to the project assignment of the 
 Coursera "Getting and Cleaning Data" course.
-The project assignment is in Project Assignment.md 
+The project assignment is in the Project Assignment.md file
+The Codebook can be found at Codebook.md
 
 Raw data
 --------
@@ -29,8 +30,3 @@ After merging testing and training, labels are added and only columns that have 
 
 Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity.
 This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
-
-Code Book
----------
-The CodeBook.md file explains the transformations performed and the resulting data and variables.
-
