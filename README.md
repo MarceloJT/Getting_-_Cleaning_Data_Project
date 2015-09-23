@@ -4,13 +4,21 @@
 
 Intro
 -----
-This repo was created to store all data related to the project assignment of the 
+This repo was created to store and document all steps related to the project assignment of the 
 Coursera "Getting and Cleaning Data" course.
-The project assignment is in the Project Assignment.md file
+
+The project assignment is in the Project Assignment.md file.
+
 The Codebook can be found at Codebook.md
 
 Raw data
 --------
+
+The raw data was properly unziped from the project page link:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+and stored in a directory in my computer. Such directory is stated in the "source" command in the .R file.
 
 The xxx are unlabeled and can be found in the x_test.txt. 
 The activity labels are in the y_test.txt file.
@@ -20,11 +28,8 @@ The same holds for the training set.
 
 Scripts and Tidy Dataset
 ------------------------
-I created a script called run_analysis.R which will merge the test and training sets together.
-Prerequisites for this script:
-
-1. the UCI HAR Dataset must be extracted and..
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+The R script that merges and cleans the data is "run_analysis.R".  Its premise is that the file was already
+properly unziped in the directory stated in the "source" command.
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
